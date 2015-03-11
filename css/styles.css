@@ -1,0 +1,40 @@
+/* GLOBAL */
+body {
+	background: url("../img/bg.png");
+	font-family: 'Cardo', serif;
+}
+
+/* LAYOUT */
+.container {
+	background: #91AA9D;
+	margin: 0 auto;
+	min-width: 350px;
+	width: 90%;
+}
+
+article section {
+	float: left;
+	padding: 2%;
+	width: 46%;
+}
+
+img {
+	min-width: 150px;
+	width: 100%;
+}
+
+iframe{
+	max-width: 500px;
+	min-width: 300px;
+	width: 100%;
+}
+
+#home {
+	max-width: 450px;
+	min-width: 300px;
+	width: 100%;
+}
+
+
+
+
