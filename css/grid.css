@@ -22,6 +22,7 @@ img {
 	.hide-mobile {
 		display: none;
 	}
+
 }
 
 @media (min-width: 768px) {

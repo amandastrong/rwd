@@ -10,6 +10,7 @@ body {
 	margin: 0 auto;
 	min-width: 350px;
 	width: 90%;
+	height: auto;
 }
 
 article section {
@@ -18,8 +19,7 @@ article section {
 	width: 46%;
 }
 
-img {
-	min-width: 150px;
+img{
 	width: 100%;
 }
 
@@ -29,6 +29,10 @@ iframe{
 	width: 100%;
 }
 
+.youtube {
+	margin-top: 150px;
+}
+
 #home {
 	max-width: 450px;
 	min-width: 300px;
@@ -36,5 +40,92 @@ iframe{
 }
 
 
+header {
+  height: 2em;
+  width: 100%;
+  padding-top: 1em;
+  font-size: 1.1em;
+}
+
+nav ul {
+	background: black;
+	opacity: .6;
+	padding-right: 120px;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: right;
+	height: 35px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fffcf8;
+}
+
+/* First Frame */
+nav ul{  
+	transition: opacity 4s;
+	transition: height 3s;
+}
+
+/* Last Frame */
+
+nav:hover ul,
+nav:active ul{
+  opacity: 1;
+  transition: opacity;
+}
+
+/*---------------*/
+
+a:link,
+a:visited{
+  color: #fffcf8;
+  text-decoration: none;
+}
+
+a:focus{
+  background: #a9f5d7;
+}
+
+a:visited{
+  color: #fffcf8;
+}
+
+a:hover{
+  color: #fffcf8;
+}
+
+a:active{
+  background: #a9f5d7;
+}
 
 
+@media (max-width: 640px){
+
+	nav a{
+		font-size: 1em;
+	}
+
+	nav ul {
+		padding-right: 30px;
+		padding-top: 10px;
+		margin: 0 auto;
+		text-align: center;
+		height: 50px;
+	}
+
+	nav li {
+		margin: 0 auto;
+		padding: 3px;
+		text-align: center;
+	}
+}
